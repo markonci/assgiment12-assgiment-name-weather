@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  
+  <div class="baground">
+    <!-- start nav  -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary P-2">
+    <div class="container">
+      <div class="d-flex align-items-center logo-img">
+      <a class="navbar-brand" href="#"><img src="images/imgi_1_logo@2x.png" alt="logo"></a>
+      <div class="logo-text">
+        <p>weather <span>tagline goes here</span></p>
+      </div>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNav" >
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item ps-4">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item ps-4">
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item ps-4">
+            <a class="nav-link" href="#">Live cameras</a>
+          </li>
+          <li class="nav-item ps-4">
+            <a class="nav-link" href="#">Photo</a>
+          </li>
+          <li class="nav-item ps-4">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <!-- end nav  -->
+
+
+
+    <div class="container p-5 mx-auto mt-4">
+      <div class="d-flex justify-content-center position-relative ">
+        <input type="search" class="form-control p-3" placeholder="find your location....." id="cityInput">
+        <button class="btn btn-primary ms-2 position-absolute top-50 translate-middle" id="cityButton">search</button>
+      </div>
+
+      <div class="row gx-0 mt-5 row-card">
+
+        <!-- ----- start card 1----- -->
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header d-flex justify-content-between bg-black bg-opacity-50">
+              <p>Friday</p>
+              <p>4July</p>
+            </div>
+            <div class="card-body bg-black bg-opacity-50">
+              <p>Cairo</p>
+              <p class="h1">27.3oC</p>
+              <img src="images/imgi_2_113.png" width="auto" alt="">
+              <p>clear</p>
+              <div>
+                <img src="images/imgi_3_icon-umberella.png" alt=""><span class="ms-1">20%</span>
+                <img src="images/imgi_4_icon-wind.png" class="ms-3" alt=""><span class="m-1">20%</span>
+                <img src="images/imgi_5_icon-compass.png" class="ms-3" alt=""><span class="ms-1">20%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!------- end card 1----- -->
+
+
+        <!------- start card 2----- -->
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header d-flex justify-content-center  bg-opacity-50">
+              <p>Friday</p>
+            </div>
+            <div class="card-body  text-center p-4">
+              <img src="images/imgi_6_113.png" alt="">
+              <p class="h1">27.3oC</p>
+              <p >29.3oC</p>
+              <p >Sunny</p>
+
+            </div>
+          </div>
+        </div>
+        <!------- end card 2----- -->
+
+
+        <!------- start card 3----- -->
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header d-flex justify-content-center bg-black bg-opacity-50 ">
+              <p>Friday</p>
+            </div>
+            <div class="card-body bg-black bg-opacity-50 text-center p-4">
+              <img src="images/imgi_6_113.png" alt="">
+              <p class="h1">27.3oC</p>
+              <p >27.3oC</p>
+              <p >Sunny</p>
+            </div>
+          </div>
+        </div>
+        <!------- end card 3----- -->
+
+      </div>
+
+      <div id="error" class="text-white text-center h1">
+    </div>
+  </div>
+
+</div>
+
+
+<!-------- start loader  ------------>
+<span class="loader position-absolute top-50 start-50 translate-middle "></span>
+<!-------- end loader  ------------>
+
+
+
+
+<!-- start footer -->
+<footer class="text-white">
+  <div class="container-fluid">
+    <div class="row">
+    <div class="p-5 mx-auto mt-4 col-md-6">
+<div class="d-flex justify-content-center position-relative ">
+  <input type="search" class="form-control p-3" placeholder="find your location....." id="cityInput">
+  <button class="btn btn-primary ms-2 position-absolute top-50 translate-middle" id="cityButton">search</button>
+</div>
+<br>
+<p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+  </div>
+    </div>
+</div>
+</footer>
+  <!-- end footer -->
+
+
+  <script src="js/index.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

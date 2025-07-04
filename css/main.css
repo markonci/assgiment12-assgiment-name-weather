@@ -1,0 +1,145 @@
+.baground{
+    background-image:linear-gradient(rgba(152, 6, 6, 0.066)), url(../images/imgi_7_banner.png);
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+
+.navbar-brand img{
+    width: 70px;
+}
+
+.navbar{
+background-color: #1E202B !important;
+padding: 20px;
+}
+
+
+.nav-item a{
+    color: white;
+}
+
+
+.nav-item a:hover{
+    color: #1D5AC2;
+    border: 1px solid  #1D5AC2;
+    border-radius: 30px;
+    padding-inline: 15px !important;
+    padding-block: 0;
+}
+
+.navbar-nav .nav-link.active{
+        color: #1D5AC2;
+    border: 1px solid  #1D5AC2 ;
+    border-radius: 30px;
+}
+
+
+.logo-text p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.logo-text span{
+    color: #BFC1C3;
+    font-size: 10px;
+    margin-top: 0;
+    display: block;
+}
+
+
+button{
+    right: -2%;
+}
+
+    .form-control {
+    border-radius: 30px;
+    background-color: #1E202B;
+    color:red ;
+    border: none;
+}
+.form-control::placeholder{
+    color: aliceblue;
+}
+.form-control:focus{
+    background-color: #1e202b91;
+    color: white;
+}
+
+
+
+.card{
+    outline: none;
+    border: none; 
+    
+}
+
+.card-header{
+    background-color: #2D303D;
+}
+
+.card-body{
+    background-color: #262936;
+}
+
+ .card .location-name,.date{
+    color: #B2C1C8;
+ }
+ 
+ .card  .day-condition{
+        color: #029AD8;
+
+ }
+
+.card .daily-chance{
+    color: rgb(7, 203, 7);
+}
+
+ 
+
+footer{
+    background-color: #262936;
+    /* color: white; */
+}
+
+
+
+
+/* start lodear */
+.loader {
+        width: 20%;
+        height: 20%;
+        border-radius: 50%;
+        position: relative;
+        animation: rotate 1s linear infinite;
+        
+      }
+      .loader::before , .loader::after {
+        content: "";
+        box-sizing: border-box;
+        position: absolute;
+        inset: 0px;
+        border-radius: 50%;
+        border: 50px solid #FFF;
+        animation: prixClipFix 2s linear infinite ;
+      }
+      .loader::after{
+        transform: rotate3d(90, 90, 0, 180deg );
+        border-color: #FF3D00;
+      }
+
+      @keyframes rotate {
+        0%   {transform: rotate(0deg)}
+        100%   {transform: rotate(360deg)}
+      }
+
+      @keyframes prixClipFix {
+          0%   {clip-path:polygon(50% 50%,0 0,0 0,0 0,0 0,0 0)}
+          50%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 0,100% 0,100% 0)}
+          75%, 100%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,100% 100%,100% 100%)}
+      }
+      /* end loader */
