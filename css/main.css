@@ -1,5 +1,7 @@
 .baground{
-    background-image:linear-gradient(rgba(152, 6, 6, 0.066)), url(../images/imgi_7_banner.png);
+    /* background-image:linear-gradient(rgba(152, 6, 6, 0.066)), url(../images/imgi_7_banner.png); */
+    background-image: linear-gradient(rgba(152, 6, 6, 0.066)), url('/images/imgi_7_banner.png');
+
     background-size: cover;
     background-position: center ;
     background-repeat: no-repeat;
